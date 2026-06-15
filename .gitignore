@@ -34,5 +34,8 @@ coverage/
 .turbo/
 .cache/
 
+# Fallow
+.fallow/
+
 # Misc
 *.local
