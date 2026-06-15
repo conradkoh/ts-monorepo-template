@@ -9,13 +9,16 @@
     "test:watch": "vitest",
     "lint": "eslint . && fallow dead-code",
     "lint:fix": "eslint . --fix && fallow fix --yes --no-create-config",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "fallow": "^2.96.0",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
