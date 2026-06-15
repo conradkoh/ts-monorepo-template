@@ -6,6 +6,7 @@
     "build": "turbo run build",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
+    "test:watch": "vitest",
     "lint": "eslint . && fallow dead-code",
     "lint:fix": "eslint . --fix && fallow fix --yes --no-create-config",
     "format": "prettier --write ."
