@@ -1,1 +1,1 @@
-pnpm test
+bun run scripts/pre-push.ts
